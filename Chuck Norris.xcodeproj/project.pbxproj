@@ -49,6 +49,8 @@
 		4F9EDEE2206EEAAD00E3A956 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9EDEE1206EEAAD00E3A956 /* UIViewControllerExtensions.swift */; };
 		4F9EDEE3206EFC4000E3A956 /* JokeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E3442066F411007A9FFA /* JokeExtensions.swift */; };
 		4F9EDEE5206EFECC00E3A956 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20E34020669FCB007A9FFA /* BundleExtensions.swift */; };
+		4FBEACD220796572005EC49D /* JokeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEACD120796572005EC49D /* JokeError.swift */; };
+		4FBEACD320796579005EC49D /* JokeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEACD120796572005EC49D /* JokeError.swift */; };
 		549ED229A6A164868BD43C97 /* Pods_ChuckNorrisCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0134B21A7CC1B8A7A2E9DA88 /* Pods_ChuckNorrisCoreTests.framework */; };
 		7AE14BEC9B573802ABC57623 /* Pods_Chuck_Norris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C946BB3CDCBE0A60A416A5 /* Pods_Chuck_Norris.framework */; };
 		7F5AE8C3AD46C16D78D5A51F /* Pods_ChuckNorrisCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE72DB075F8BADBE3FDEACD /* Pods_ChuckNorrisCore.framework */; };
@@ -144,6 +146,7 @@
 		4F42B0C32064656100002290 /* dev_joke.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dev_joke.json; sourceTree = "<group>"; };
 		4F42B0C52064657F00002290 /* random_joke.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = random_joke.json; sourceTree = "<group>"; };
 		4F9EDEE1206EEAAD00E3A956 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		4FBEACD120796572005EC49D /* JokeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeError.swift; sourceTree = "<group>"; };
 		7D0D246D15426B77C52E5AFB /* Pods-ChuckNorrisCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisCoreTests/Pods-ChuckNorrisCoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		949BCCE0F3B4C2D4FDB57D9B /* Pods-Chuck Norris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chuck Norris.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chuck Norris/Pods-Chuck Norris.release.xcconfig"; sourceTree = "<group>"; };
 		BA05C9450DE9D140837A3714 /* Pods-ChuckNorrisCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorrisCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorrisCore/Pods-ChuckNorrisCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -311,6 +314,7 @@
 				4F20E34B2067049B007A9FFA /* JokeInteractor.swift */,
 				4F20E3472066F51C007A9FFA /* JokeUserDefaultsDataSource.swift */,
 				4F20E35120687A12007A9FFA /* JokeDefaultPresenter.swift */,
+				4FBEACD120796572005EC49D /* JokeError.swift */,
 			);
 			path = Joke;
 			sourceTree = "<group>";
@@ -847,6 +851,7 @@
 				4F20E36A20687B6E007A9FFA /* JokeContract.swift in Sources */,
 				4F20E36820687B6E007A9FFA /* Joke.swift in Sources */,
 				4F20E36E20687B71007A9FFA /* Result.swift in Sources */,
+				4FBEACD320796579005EC49D /* JokeError.swift in Sources */,
 				4F20E36B20687B6E007A9FFA /* JokeInteractor.swift in Sources */,
 				4F20E36D20687B6E007A9FFA /* JokeDefaultPresenter.swift in Sources */,
 			);
@@ -884,6 +889,7 @@
 				4F42B0B7206461AC00002290 /* JokeAlamorifeNetwork.swift in Sources */,
 				4F20E34C2067049B007A9FFA /* JokeInteractor.swift in Sources */,
 				4F20E33A206699CF007A9FFA /* Result.swift in Sources */,
+				4FBEACD220796572005EC49D /* JokeError.swift in Sources */,
 				4F20E35220687A12007A9FFA /* JokeDefaultPresenter.swift in Sources */,
 				4F42B0BA2064620700002290 /* Joke.swift in Sources */,
 			);

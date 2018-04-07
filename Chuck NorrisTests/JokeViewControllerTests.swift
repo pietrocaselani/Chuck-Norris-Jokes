@@ -67,9 +67,7 @@ class JokeViewControllerTests: XCTestCase {
 	func testJokeViewController_tableView_should_display_the_same_jokes_count() {
 		//Given
 		viewController.preloadView()
-
 		let jokes = [Joke.mock(), Joke.mock()]
-
 		viewController.show(jokes: jokes)
 
 		//When
@@ -105,14 +103,14 @@ class JokeViewControllerTests: XCTestCase {
 		viewController.showError(message: message)
 
 		//Then
-		guard let titles = alertVerifier.actionTitles as? [String] else {
+		guard let actionsTitle = alertVerifier.actionTitles as? [String] else {
 			XCTFail("Should be an instance of [String]")
 			return
 		}
 
 		XCTAssertEqual(alertVerifier.title, "Error")
 		XCTAssertEqual(alertVerifier.message, message)
-		XCTAssertEqual(titles, ["OK"])
+		XCTAssertEqual(actionsTitle, ["OK"])
 	}
 
 	func testJokeViewController_when_user_clicks_ok_alert_should_dismiss_alert() {

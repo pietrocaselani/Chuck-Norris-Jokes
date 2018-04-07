@@ -1,0 +1,45 @@
+iOS Clean Architecture
+
+Pietro Caselani
+Involves
+
+* Agenda
+
+- MVC da Apple
+- Clean Architecture
+- Testes unitários
+- Code
+
+* Apple MVC
+
+.image https://cdn-images-1.medium.com/max/1400/1*m94mXVuN3_bvHbrowVwstg.png _ 900
+
+* UIViewController
+
+- View
+- View lifecycle (viewDidLoad, viewWillAppear, viewDidAppear...)
+- Networking
+- Persistência
+- Callbacks
+- Animações
+- Ruim para testes unitários
+
+* Algo mais Clean
+
+- iOS Architecture Patterns (MVC, MVP, MVVM, VIPER)
+- UIViewController é tratado como View
+- Componentes independentes do framework iOS
+- Testes feitos em Presenters, ViewModels e Interactors
+
+* Pequenas melhorias
+
+- Setup module
+- Environment
+- Framework "Core" para macOS
+- Testes fora do ambiente iOS
+
+* Code
+
+* Code & Slides
+
+.link https://github.com/pietrocaselani/Chuck-Norris-Jokes
