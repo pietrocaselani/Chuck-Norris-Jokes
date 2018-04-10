@@ -31,6 +31,10 @@ Involves
 - Componentes independentes do framework iOS
 - Testes feitos em Presenters, ViewModels e Interactors
 
+* VIPER
+
+.code Contract.swift
+
 * Pequenas melhorias
 
 - Setup module
