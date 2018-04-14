@@ -35,12 +35,14 @@ Involves
 
 .code Contract.swift
 
-* Pequenas melhorias
+* Algumas melhorias
 
 - Setup module
 - Environment
 - Framework "Core" para macOS
 - Testes fora do ambiente iOS
+- Arquitetura reativa
+- Dividir em componentes
 - Não escrever coisas na pedra
 
 * Code
