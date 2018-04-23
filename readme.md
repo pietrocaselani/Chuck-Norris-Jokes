@@ -1,3 +1,5 @@
+[![Build Status](https://www.bitrise.io/app/373bbbf556c871e2/status.svg?token=adSxoO7WAetl6Co51RCFFw&branch=master)](https://www.bitrise.io/app/373bbbf556c871e2)
+
 Chuck Norris
 ==
 
