@@ -5,3 +5,24 @@ Chuck Norris
 ==
 
 Simple app to fetch random jokes from [Chuck Norris API](https://api.chucknorris.io/) and demonstrate how to do unit tests iOS applications.
+
+
+### Instructions for setup
+
+To be able to run the playground you must use cocoapods `1.4.0`. I do not know exactally why the `1.5.0` do not run.
+
+- If needed, you can downgrade your cocoapods.
+
+```bash
+❯ gem uninstall cocoapods
+❯ gem install cocoapods -v 1.4.0
+```
+
+- Then run:
+
+```bash
+❯ pod deintegrate
+❯ pod install
+```
+
+

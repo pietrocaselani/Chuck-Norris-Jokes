@@ -5,7 +5,8 @@ final class JokeModule {
 	private init() {}
 
 	static func setupModule() -> JokeView {
-		let storyboard = UIStoryboard(name: "Joke", bundle: Bundle.main)
+        let bundle = Bundle(for: JokeViewController.self)
+		let storyboard = UIStoryboard(name: "Joke", bundle: bundle)
 		guard let jokeViewController = storyboard.instantiateInitialViewController() as? JokeViewController else {
 			Swift.fatalError("Could not instantiate JokeViewController")
 		}
