@@ -43,3 +43,10 @@ target 'ChuckNorrisCore-iOS' do
   shared_pods
 
 end
+
+target 'ChuckNorrisPlaygroundFramework' do
+  use_frameworks!
+  platform :ios, '10.0'
+
+  shared_pods
+end
